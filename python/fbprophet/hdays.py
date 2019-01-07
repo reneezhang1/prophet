@@ -13,7 +13,7 @@ from calendar import Calendar
 from datetime import date, timedelta
 
 from convertdate.islamic import from_gregorian, to_gregorian
-from holidays import MONDAY, WEEKEND, HolidayBase, easter, rd
+from holidays import MON as MONDAY, WEEKEND, HolidayBase, easter, rd
 from lunardate import LunarDate
 
 
